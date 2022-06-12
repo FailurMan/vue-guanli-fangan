@@ -25,7 +25,7 @@ module.exports = {
     confirmCommit: "确定要使用以上信息提交吗?(y/n)",
   },
   //跳过步骤
-  skipQuestions:['body','footer']
+  // skipQuestions:['body','footer']
   //默认100
   subjectLimit: 100,
 };

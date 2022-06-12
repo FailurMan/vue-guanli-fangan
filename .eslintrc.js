@@ -25,8 +25,14 @@ module.exports = {
   
   */
   rules: {
+    "no-dupe-keys": 2, // 在创建对象字面量时不允许键重复 {a:1,a:1}
+    "no-dupe-args": 2, // 函数参数不能重复
     "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
     "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off",
     quotes: "warn",
+    "vue/multi-word-component-names": 0,
+    semi: 0,
+    "no-unused-vars": 0,
+    "vue/no-unused-vars": 0,
   },
 };
